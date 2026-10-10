@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000/api/v1';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://proofmind-ai.onrender.com/api/v1';
 
 function getAuthHeaders() {
   const token = localStorage.getItem('proofmind_auth_token');
